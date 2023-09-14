@@ -9,7 +9,7 @@ VALUES
 INSERT INTO funcionario (codigo_funcionario, nome_funcionario, cargo, sigla_depto, data_admissao, salario)
 VALUES
     (100, 'Fernanda Lima', 'Vendas', 'VENDAS', '2017-09-21', 4000.00),
-    (101, 'Fabio Santos', 'Desenvolvedor', 'TI', '2019-05-29', 3000.00),
+    (101, 'Fabio Gomes', 'Desenvolvedor', 'TI', '2019-05-29', 3000.00),
     (102, 'Bianca Costa', 'Desenvolvedora', 'TI', '2015-01-01', 6500.00),
     (103, 'Carlos Oliveira', 'Vendedor', 'VENDAS', '2020-11-15', 3400.00),
     (104, 'Thiago Pereira', 'Contador', 'ADM', '2021-07-10', 3600.00),

@@ -6,7 +6,7 @@ VALUES
     ('ADM', 'Administrativo', 11),
     ('MKT', 'Marketing', 4);
 
-INSERT INTO funcionario (codigo_funcionario, nome_funcionario, cargo, sigla_depto)
+INSERT INTO funcionario (codigo_funcionario, nome_funcionario, cargo, sigla_depto, data_admissao, salario)
 VALUES
     (100, 'Fernanda Lima', 'Vendas', 'VENDAS', '2017-09-21', 4000.00),
     (101, 'Fabio Santos', 'Desenvolvedor', 'TI', '2019-05-29', 3000.00),
@@ -22,7 +22,7 @@ VALUES
     (111, 'Romeu de Nobrega', 'Desenvolvedor', 'MKT','2021-04-22', 4600.00 ),
     (112, 'Bianca Costa', 'Desenvolvedora', 'TI','2015-01-01', 6500.00);
 
-INSERT INTO projeto (sigla_projeto, nome_projeto, codigo_funcionario, sigla_depto, data_admissao, salario)
+INSERT INTO projeto (sigla_projeto, nome_projeto, codigo_funcionario, sigla_depto)
 VALUES
     ('VENDAS01', 'Vendas em Atacado', 100, 'VENDAS'),
     ('TI01', 'Desenvolvimento de Software', 101, 'TI'),

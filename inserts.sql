@@ -9,18 +9,18 @@ VALUES
 INSERT INTO funcionario (codigo_funcionario, nome_funcionario, cargo, sigla_depto, data_admissao, salario)
 VALUES
     (100, 'Fernanda Lima', 'Vendas', 'VENDAS', '2017-09-21', 4000.00),
-    (101, 'Fabio Gomes', 'Desenvolvedor', 'TI', '2019-05-29', 3000.00),
-    (102, 'Bianca Costa', 'Desenvolvedora', 'TI', '2015-01-01', 6500.00),
-    (103, 'Carlos Oliveira', 'Vendedor', 'VENDAS', '2020-11-15', 3400.00),
-    (104, 'Thiago Pereira', 'Contador', 'ADM', '2021-07-10', 3600.00),
+    (101, 'Fabio Gomes', 'Desenvolvimento', 'TI', '2019-05-29', 3000.00),
+    (102, 'Bianca Costa', 'Desenvolvimento', 'TI', '2015-01-01', 6500.00),
+    (103, 'Carlos Oliveira', 'Vendas', 'VENDAS', '2020-11-15', 3400.00),
+    (104, 'Thiago Pereira', 'Contabilidade', 'ADM', '2021-07-10', 3600.00),
     (105, 'Luiza Costa', 'Secretaria', 'RH', '2018-02-01', 3000.00 ),
-    (106, 'João Nascimento', 'Promotor', 'MKT', '2018-02-01', 4100.00),
+    (106, 'João Nascimento', 'Promoter', 'MKT', '2018-02-01', 4100.00),
     (107, 'Ana Alencar', 'Secretaria', 'RH', '2020-03-12', 5200.00),
-    (108, 'Vanessa Gomes', 'Contadora', 'ADM', '2020-03-18', 4900.00),
-    (109, 'Jonas da  Silva', 'Promotor', 'MKT','2020-03-02',  3700.00),
+    (108, 'Vanessa Gomes', 'Contabilidade', 'ADM', '2020-03-18', 4900.00),
+    (109, 'Jonas da  Silva', 'Promoter', 'MKT','2020-03-02',  3700.00),
     (110, 'Romeu de Nobrega', 'Desenvolvedor', 'TI','2021-04-22', 4600.00),
-    (111, 'Romeu de Nobrega', 'Desenvolvedor', 'MKT','2021-04-22', 4600.00 ),
-    (112, 'Bianca Costa', 'Desenvolvedora', 'TI','2015-01-01', 6500.00);
+    (111, 'Amadeu Gomes da Silva', 'Promoter', 'MKT','2022-04-22', 3600.00 ),
+    (112, 'Gabriel Torres', 'Desenvolvimento', 'TI','2016-01-16', 6800.00);
 
 INSERT INTO projeto (sigla_projeto, nome_projeto, codigo_funcionario, sigla_depto)
 VALUES

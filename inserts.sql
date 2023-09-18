@@ -13,14 +13,17 @@ VALUES
     (102, 'Bianca Costa', 'Desenvolvimento', 'TI', '2015-01-01', 6500.00),
     (103, 'Carlos Oliveira', 'Vendas', 'VENDAS', '2020-11-15', 3400.00),
     (104, 'Thiago Pereira', 'Contabilidade', 'ADM', '2021-07-10', 3600.00),
-    (105, 'Luiza Costa', 'Secretaria', 'RH', '2018-02-01', 3000.00 ),
-    (106, 'João Nascimento', 'Promoter', 'MKT', '2018-02-01', 4100.00),
+    (105, 'Luiza Costa', 'Secretaria', 'RH', '2018-02-01', 3000.00),
+    (106, 'João Nascimento', 'Promoter', 'MKT', '2019-06-16', 4100.00),
     (107, 'Ana Alencar', 'Secretaria', 'RH', '2020-03-12', 5200.00),
     (108, 'Vanessa Gomes', 'Contabilidade', 'ADM', '2020-03-18', 4900.00),
-    (109, 'Jonas da  Silva', 'Promoter', 'MKT','2020-03-02',  3700.00),
+    (109, 'Jonas da  Silva', 'Promoter', 'MKT', '2020-04-02', 3700.00),
     (110, 'Romeu de Nobrega', 'Desenvolvedor', 'TI','2021-04-22', 4600.00),
-    (111, 'Amadeu Gomes da Silva', 'Promoter', 'MKT','2022-04-22', 3600.00 ),
-    (112, 'Gabriel Torres', 'Desenvolvimento', 'TI','2016-01-16', 6800.00);
+    (111, 'Amadeu Gomes da Silva', 'Promoter', 'MKT','2017-04-22', 3600.00),
+    (112, 'Gabriel Torres', 'Desenvolvimento', 'TI','2016-01-16', 6800.00),
+    (113, 'Bento Campos', 'Vendas', 'VENDAS', '2019-10-02', 3500.00),
+    (114, 'Jorge Sales', 'Contabilidade', 'ADM', '2021-02-13', 3250.00),
+    (115, 'Marcelo dos Santos', 'Secretaria', 'RH', '2022-08-01', 3100.00);
 
 INSERT INTO projeto (sigla_projeto, nome_projeto, codigo_funcionario, sigla_depto)
 VALUES

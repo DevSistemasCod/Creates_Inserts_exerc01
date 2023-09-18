@@ -4,7 +4,9 @@ VALUES
     ('TI', 'Tecnologia da Informação', 20),
     ('VENDAS', 'Vendas', 15),
     ('ADM', 'Administrativo', 11),
-    ('MKT', 'Marketing', 4);
+    ('MKT', 'Marketing', 4),
+    ('JUR', 'Juridico', 5),
+    ('COM', 'Comercial', 2);
 
 INSERT INTO funcionario (codigo_funcionario, nome_funcionario, cargo, sigla_depto, data_admissao, salario)
 VALUES

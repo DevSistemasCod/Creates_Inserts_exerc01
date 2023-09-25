@@ -17,7 +17,7 @@ CREATE TABLE funcionario (
     data_admissao DATE NOT NULL, 
     salario DECIMAL(10,2) NOT NULL,
     CONSTRAINT pk_funcionario PRIMARY KEY (codigo_funcionario, nome_funcionario),
-    CONSTRAINT fk_departamento_funcionario FOREIGN KEY (sigla_depto) REFERENCES departamento(sigla_depto) ON DELETE CASCADE
+    CONSTRAINT fk_departamento_funcionario FOREIGN KEY (sigla_depto) REFERENCES departamento(sigla_depto) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE projeto (
@@ -26,7 +26,6 @@ CREATE TABLE projeto (
     codigo_funcionario INT NOT NULL CHECK(codigo_funcionario >= 0),
     sigla_depto VARCHAR(15) NOT NULL,
     CONSTRAINT pk_projeto PRIMARY KEY (sigla_projeto, nome_projeto),
-    CONSTRAINT fk_departamento_projeto FOREIGN KEY (sigla_depto) REFERENCES departamento(sigla_depto) ON DELETE CASCADE,
-    CONSTRAINT fk_funcionario_projeto FOREIGN KEY (codigo_funcionario) REFERENCES funcionario(codigo_funcionario) ON DELETE CASCADE
+    CONSTRAINT fk_departamento_projeto FOREIGN KEY (sigla_depto) REFERENCES departamento(sigla_depto) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT fk_funcionario_projeto FOREIGN KEY (codigo_funcionario) REFERENCES funcionario(codigo_funcionario) ON DELETE CASCADE ON UPDATE CASCADE
 );
-

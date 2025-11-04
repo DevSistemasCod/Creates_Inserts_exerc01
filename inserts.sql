@@ -22,7 +22,8 @@ VALUES
     (109, 'Jonas da Silva', 'Promoter', 'MKT','2020-03-02',  3700.00),	    
     (110, 'Romeu de Nobrega', 'Desenvolvimento', 'TI','2021-04-22', 4600.00),
     (111, 'Amadeu Gomes da Silva', 'Promoter', 'MKT','2022-04-22', 3600.00 ),
-    (112, 'Gabriel Torres', 'Desenvolvimento', 'TI','2016-01-16', 6800.00);
+    (112, 'Jonas da Silva', 'Promoter', 'MKT','2020-03-02',  3700.00),
+    (113, 'Gabriel Torres', 'Desenvolvimento', 'TI','2016-01-16', 6800.00);
 
 INSERT INTO projeto (sigla_projeto, nome_projeto, codigo_funcionario, sigla_depto)
 VALUES

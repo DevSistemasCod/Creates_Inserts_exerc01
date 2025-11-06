@@ -1,12 +1,12 @@
 INSERT INTO departamento (sigla_depto, nome_depto, qtd_funcionarios_depto)
 VALUES
-    ('RH', 'Recursos Humanos', 10),
-    ('TI', 'Tecnologia da Informação', 20),
-    ('VENDAS', 'Vendas', 15),
-    ('ADM', 'Administrativo', 11),
+    ('RH', 'Recursos Humanos', 2),
+    ('TI', 'Tecnologia da Informação', 4),
+    ('VENDAS', 'Vendas', 2),
+    ('ADM', 'Administrativo', 2),
     ('MKT', 'Marketing', 4),
-    ('JUR', 'Juridico', 5),
-    ('COM', 'Comercial', 2);
+    ('JUR', 'Juridico', 0),
+    ('COM', 'Comercial', 0);
 
 INSERT INTO funcionario (codigo_funcionario, nome_funcionario, cargo, sigla_depto, data_admissao, salario)
 VALUES
